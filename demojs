@@ -18,7 +18,7 @@ if( fs.existsSync("./" + dirName)) {
     fs.appendFileSync("index.html","<title>Hello</title>\n")
     fs.appendFileSync("index.html","<h1>Hi</h1>\n" )
     fs.writeFileSync("./css/style.css"," h1{color: red;}\n")
-    fs.writeFileSync("./js/main.js","var string = 'Hello World'\n")
+    fs.writeFileSync("./js/main.js","var string = \"Hello World\"\n")
     fs.appendFileSync("./js/main.js","alert(string)\n")
 
     process.exit(0);
